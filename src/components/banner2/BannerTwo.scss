@@ -1,0 +1,41 @@
+
+
+.banner-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+        max-width: 380px;
+        width: 100%;
+        .twitter-bird {
+            span {
+                font-size: 40px;
+                color: rgba(29,161,242,1.00);
+            }
+        }
+        .banner-two-title {
+            max-width: 350px;
+            h2 {
+                padding-top: 12px;
+                padding-bottom: 50px;
+                font-size: 30px;
+                font-weight: 700;
+            }
+        }
+        h4 {
+            font-size: 15px;
+        }
+        div {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .banner-two {
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

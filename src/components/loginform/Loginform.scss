@@ -1,0 +1,92 @@
+
+
+.login-form {
+    max-width: 600px;
+    padding: 0 30px;
+    margin: 20px auto;
+    .form-header {
+        text-align: center;
+        span {
+            font-size: 35px;
+            color: rgba(29,161,242,1.00);
+        }
+        h2 {
+            font-size: 23px;
+            margin-top: 20px;
+        }
+    }
+    .form-main {
+        .form-body {
+            .input-item {
+                padding-top: 20px;
+                color: rgb(101, 119, 134);
+                label {
+                    .input-field {
+                        background-color: rgba(241, 244, 247, 0.849);
+                        border-bottom: 2px solid rgba(101, 119, 134, 0.966); 
+                        padding: 5px 10px;
+                        div {
+                            padding-bottom: 5px;
+                        }
+                        input {
+                            width: 100%;
+                            color: rgb(20, 23, 26);
+                            border: none;
+                            font-size: 22px;
+                            outline: none !important;
+                            background-color: inherit;
+                        }
+                    }
+                }
+            }
+            .styleclassadded {
+                color: rgba(29,161,242,1.00);
+                label {
+                    .input-field {
+                        border-bottom: 2px solid rgba(29,161,242,1.00);
+                    }
+                }
+            }
+        }
+        .form-btn {
+            width: 100%;
+            margin-top: 20px;
+            input {
+                width: inherit;
+                padding: 15px 0;
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: bold;
+                background-color: rgba(29,161,242,1.00);
+                border: none;
+                border-radius: 50px;
+                outline: none;
+                opacity: 0.5;
+            }
+        }
+        .form-footer {
+            margin-top: 35px;
+            text-align: center;
+            color: rgba(29,161,242,1.00);
+            a {
+                color: inherit;
+                text-decoration: none;
+                line-height: 1.3125;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            span {
+                padding: 0 5px;
+            }
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    
+}

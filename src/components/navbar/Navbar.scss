@@ -1,0 +1,27 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        li {
+            font-size: 13px;
+            color: rgba(101, 119, 134, 0.904);
+            padding: 8px;
+            a {
+                display: block;
+                text-decoration: none;
+                color: rgba(101, 119, 134, 0.904);
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

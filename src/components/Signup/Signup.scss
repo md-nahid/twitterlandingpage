@@ -1,0 +1,169 @@
+
+
+
+
+
+.signup-container {
+    background-color: rgba(100, 97, 97, 0.5);
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    .signup-form {
+        background-color: #ffffff;
+        height: 90%;
+        max-width: 600px;
+        width: 100%;
+        margin: 2.5% auto;
+        border-radius: 12px;
+        padding: 10px;
+        .form-header {
+            display: flex;
+            text-align: right;
+            align-items: center;
+            span {
+                width: calc(100% / 2);
+                svg {
+                    color: rgba(29,161,242,1.00);
+                    font-size: 25px;
+                }
+                button {
+                    color: #ffffff;
+                    background-color: rgb(29, 161, 242);
+                    opacity: 0.5;
+                    padding: 5px 15px;
+                    border: none;
+                    border-radius: 50px;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+            }
+        }
+        .form-main {
+            margin: 0 25px;
+            .form-title {
+                h3 {
+                    font-size: 23px;
+                    color: rgb(20, 23, 26);
+                    margin: 15px 0;
+                }
+            }
+            .form-body {
+                .charecter-limit-and-warning {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .warning-text {
+                        padding-left: 10px;
+                        opacity: 0;
+                        color: rgb(224, 36, 94);
+                    }
+                }
+                .input-item {
+                    padding-top: 10px;
+                    color: rgb(101, 119, 134);
+                    label {
+                        .input-field {
+                            background-color: rgb(241, 244, 247);
+                            border-bottom: 2px solid rgba(101, 119, 134, 0.966); 
+                            padding: 5px 15px;
+                            p {
+                                padding-bottom: 5px;
+                            }
+                            input {
+                                width: 100%;
+                                color: rgb(20, 23, 26);
+                                border: none;
+                                font-size: 21px;
+                                outline: none !important;
+                                background-color: inherit;
+                            }
+                        }
+                        .email {
+                            display: none;
+                        }
+                    }
+                }
+                .styleclassadded {
+                    color: rgba(29,161,242,1.00);
+                    label {
+                        .input-field {
+                            border-bottom: 2px solid rgba(29,161,242,1.00);
+                        }
+                    }
+                }
+            }
+            .useemail-instead {
+                margin: 20px 0;
+                p {
+                    color: rgb(27, 149, 224);
+                    font-weight: 400;
+                    &:hover {
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .date-of-birth {
+                padding-top: 20px;
+                h3 {
+                    font-size: 16px;
+                }
+                p {
+                    color: rgb(101, 119, 134);
+                    line-height: 1.2;
+                    font-size: 15px;
+                    padding: 5px 0;
+                }
+            }
+            .select-date-of-birth {
+                display: flex;
+                margin-top: 15px;
+                .select-item {
+                    background-color: rgb(241, 244, 247);
+                    border-bottom: 2px solid rgb(117, 115, 115);
+                    padding: 5px;
+                    p {
+                        color: rgb(101, 119, 134);
+                    }
+                    select {
+                        width: 100%;
+                        color: rgb(20, 23, 26);
+                        border: none;
+                        font-size: 18px;
+                        outline: none !important;
+                        background-color: inherit;
+                        option {
+                            font-size: 14px;
+                        }
+                    }
+                    &:not(:last-child) {
+                        margin-right: 10px;
+                    }
+                }
+                .select-month {
+                    flex-grow: 6;
+                }
+                .select-day {
+                    flex-grow: 4;
+                }
+                .select-year {
+                    flex-grow: 4;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .signup-container {
+        background-color: rgb(255, 255, 255);
+    }
+}

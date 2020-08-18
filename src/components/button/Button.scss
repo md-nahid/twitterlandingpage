@@ -1,0 +1,21 @@
+
+
+.blue-button {
+    margin-top: 20px;
+    a {
+        text-decoration: none;
+        display: block;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        background-color: rgb(29, 161, 242);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        border: 2px solid rgb(29, 161, 242);
+        border-radius: 50px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        &:hover {
+            background-color: rgba(22, 135, 206, 0.74);
+        }
+    }
+}
